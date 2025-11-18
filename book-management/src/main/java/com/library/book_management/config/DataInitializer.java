@@ -23,35 +23,35 @@ public class DataInitializer implements CommandLineRunner {
     public void run(String... args) throws Exception {
         // Create 10 Authors
         Author author1 = Author.builder()
-            .name("George Orwell")
-            .nationality("British")
-            .birthYear(1903)
-            .email("g.orwell@classic.com")
-            .biography("English novelist and essayist, journalist and critic")
+            .name("Mario Puzo")
+            .nationality("American")
+            .birthYear(1920)
+            .email("-")
+            .biography("American author and screenwriter")
             .build();
         
         Author author2 = Author.builder()
-            .name("Jane Austen")
-            .nationality("British")
-            .birthYear(1775)
-            .email("j.austen@classic.com")
-            .biography("English novelist known for her six major novels")
+            .name("Munshi Premchand")
+            .nationality("Indian")
+            .birthYear(1880)
+            .email("-")
+            .biography("Munshi Premchand is his pen name")
             .build();
         
         Author author3 = Author.builder()
-            .name("F. Scott Fitzgerald")
-            .nationality("American")
-            .birthYear(1896)
-            .email("f.fitzgerald@classic.com")
-            .biography("American novelist and short story writer")
+            .name("Fyodor Dostoevsky")
+            .nationality("Russian")
+            .birthYear(1821)
+            .email("-")
+            .biography("Fyodor Mikhailovich Dostoevsky was a Russian novelist, short story writer, essayist and journalist. ")
             .build();
         
         Author author4 = Author.builder()
-            .name("Harper Lee")
-            .nationality("American")
-            .birthYear(1926)
-            .email("h.lee@classic.com")
-            .biography("American novelist best known for To Kill a Mockingbird")
+            .name("Saksham Garg")
+            .nationality("Indian")
+            .birthYear(1998)
+            .email("s.garg@writer.com")
+            .biography("Indian mythological fantasy novelist best known for Samsara")
             .build();
         
         Author author5 = Author.builder()
@@ -63,18 +63,18 @@ public class DataInitializer implements CommandLineRunner {
             .build();
         
         Author author6 = Author.builder()
-            .name("Ernest Hemingway")
-            .nationality("American")
-            .birthYear(1899)
-            .email("e.hemingway@classic.com")
-            .biography("American novelist, short-story writer, and journalist")
+            .name("Chetan Bhagat")
+            .nationality("Indian")
+            .birthYear(1974)
+            .email("c.bhagat@writer.com")
+            .biography("Chetan Prakash Bhagat is an Indian author, columnist, screenwriter")
             .build();
         
         Author author7 = Author.builder()
             .name("Agatha Christie")
             .nationality("British")
             .birthYear(1890)
-            .email("a.christie@mystery.com")
+            .email("-")
             .biography("English writer known for detective novels")
             .build();
         
@@ -82,7 +82,7 @@ public class DataInitializer implements CommandLineRunner {
             .name("Stephen King")
             .nationality("American")
             .birthYear(1947)
-            .email("s.king@horror.com")
+            .email("-")
             .biography("American author of horror, supernatural fiction, and fantasy")
             .build();
         
@@ -90,7 +90,7 @@ public class DataInitializer implements CommandLineRunner {
             .name("Gabriel García Márquez")
             .nationality("Colombian")
             .birthYear(1927)
-            .email("g.marquez@latinlit.com")
+            .email("-")
             .biography("Colombian novelist and Nobel Prize winner")
             .build();
         
@@ -98,7 +98,7 @@ public class DataInitializer implements CommandLineRunner {
             .name("Virginia Woolf")
             .nationality("British")
             .birthYear(1882)
-            .email("v.woolf@modern.com")
+            .email("-")
             .biography("English writer, considered one of the foremost modernists")
             .build();
         
@@ -116,42 +116,42 @@ public class DataInitializer implements CommandLineRunner {
         
         // Create 10 Books
         Book book1 = Book.builder()
-            .title("1984")
+            .title("The Godfather")
             .isbn("978-0-452-28423-4")
-            .publicationYear(1949)
-            .genre("Dystopian Fiction")
+            .publicationYear(1969)
+            .genre("Thriller")
             .pageCount(328)
-            .description("A dystopian social science fiction novel")
+            .description("A burgeoning fascination with the Mafia in American society")
             .author(author1)
             .build();
         
         Book book2 = Book.builder()
-            .title("Pride and Prejudice")
+            .title("Godaan")
             .isbn("978-0-141-43951-8")
-            .publicationYear(1813)
-            .genre("Romance")
+            .publicationYear(1936)
+            .genre("Fiction")
             .pageCount(432)
-            .description("A romantic novel of manners")
+            .description("Godaan is a Hindi novel by Munshi Premchand")
             .author(author2)
             .build();
         
         Book book3 = Book.builder()
-            .title("The Great Gatsby")
+            .title("Crime & Punishment")
             .isbn("978-0-743-27356-5")
-            .publicationYear(1925)
-            .genre("Literary Fiction")
-            .pageCount(180)
-            .description("A novel about the American Dream")
+            .publicationYear(1866)
+            .genre("Crime Fiction")
+            .pageCount(380)
+            .description("A novel about murder and redemption, Crime and Punishment.")
             .author(author3)
             .build();
         
         Book book4 = Book.builder()
-            .title("To Kill a Mockingbird")
+            .title("Samsara: Enter the Valley of the Gods")
             .isbn("978-0-061-12008-4")
-            .publicationYear(1960)
-            .genre("Southern Gothic")
+            .publicationYear(2022)
+            .genre("Fantasy fiction")
             .pageCount(324)
-            .description("A novel about racial injustice and childhood innocence")
+            .description("Samsara is a perfect intersection of YA and adult fantasy fiction.")
             .author(author4)
             .build();
         
@@ -166,12 +166,12 @@ public class DataInitializer implements CommandLineRunner {
             .build();
         
         Book book6 = Book.builder()
-            .title("The Old Man and the Sea")
+            .title("Half Girlfriend")
             .isbn("978-0-684-80122-3")
-            .publicationYear(1952)
-            .genre("Literary Fiction")
-            .pageCount(127)
-            .description("A story of an aging fisherman's struggle")
+            .publicationYear(2014)
+            .genre("Romance")
+            .pageCount(280)
+            .description("Half Girlfriend is an Indian English coming of age, young adult romance")
             .author(author6)
             .build();
         
